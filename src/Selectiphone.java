@@ -14,9 +14,7 @@ public class Selectiphone {
 		WebDriver driver = new ChromeDriver();
         driver.get("https://www.apple.com/au");
         driver.findElement(By.xpath("//*[@id=\"ac-globalnav\"]/div/ul[2]/li[4]/a")).click();
-       // WebElement iPhone = new WebElement(); 
-        Assert.assertEquals (driver.findElement(By.xpath("//*[@id=\"main\"]/section[1]/div/div/h3")),"Welcome to the big screens.");
-	
+       
     
      
 	}
